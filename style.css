@@ -1,0 +1,142 @@
+                            /*  HEADER*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 80px;
+    height: auto;
+}
+.header{
+    display: flex;
+    padding: 5px;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(31, 41, 55);
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #BABEC4
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    gap: 24px;
+}
+                            /* BODY OF FIRST PAGE */
+.fpbody{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 41, 55);
+    color: rgb(249, 250, 251);
+    padding-bottom: 130px;
+}
+.fppara{
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.rightbody img{
+    width: 400px;
+    height: auto;
+}
+.heading{
+    font-size: 32px ;
+    font-weight:bolder;
+}
+.button button{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0px solid black;
+    background-color: #3882f6;
+    color: white;
+}
+                                /* SECOND PAGE */
+.sphead{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex: 1;
+    font-weight: 900px;
+    color: rgb(31, 41, 55);
+    margin-bottom: 40px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px ;
+    justify-content: center;
+    align-items: center;
+}
+.secondpage img{
+    width: 220px;
+    height: auto;
+    border: 4px solid rgb(59, 130, 246);
+}
+.text{
+    display: flex;
+    font-size: 20px;
+    color: rgb(93, 102, 115);
+}
+.secondpage{
+    margin-bottom: 45px;
+    flex: 1;
+}
+                                /* I am going to edit the third section now */
+.thirdsection{
+    background-color: rgb(229, 231, 235);
+    padding: 125px 0px 125px 0px ;
+}
+.quote{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+.name{
+    display: flex;
+    text-align: center;
+    padding-right: 120px;
+    justify-content:flex-end;
+    font-size: 25px;
+    font-weight: 900;
+}
+                                    /* LAST SECTION */
+.lastsection{
+    display: flex;
+    justify-content: space-around;
+}
+.lastsectionmid{
+    display: flex;
+    width: 1000px;
+    margin: 122px 0px 122px 0px;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 46px 0px 46px 0px;
+    border-radius: 15px;
+}
+.lpbutton button{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0px solid black;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+}
+                                        /* FOOTER  */
+.footer{
+    background-color: rgb(31, 41, 55);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
