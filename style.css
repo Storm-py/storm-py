@@ -18,7 +18,8 @@ img{
 }
 a{
     text-decoration: none;
-    color: #BABEC4
+    color: #BABEC4;
+    font-size: larger;
 }
 li{
     list-style-type: none;
@@ -26,6 +27,7 @@ li{
 ul{
     display: flex;
     gap: 24px;
+    gap: 80px;
 }
                             /* BODY OF FIRST PAGE */
 .fpbody{
