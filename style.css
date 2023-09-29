@@ -142,3 +142,10 @@ ul{
     text-align: center;
     padding: 30px;
 }
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+}
